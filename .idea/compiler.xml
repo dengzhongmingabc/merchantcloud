@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="app-core" />
+        <module name="app-goods" />
+        <module name="app-store" />
+        <module name="cloud-config" />
+        <module name="cloud-configserver" />
+        <module name="cloud-discovery" />
+        <module name="cloud-getway" />
+        <module name="cloud-hystrix" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app-core" target="1.8" />
+      <module name="app-goods" target="1.8" />
+      <module name="app-store" target="1.8" />
+      <module name="cloud-config" target="1.8" />
+      <module name="cloud-configserver" target="1.8" />
+      <module name="cloud-discovery" target="1.8" />
+      <module name="cloud-getway" target="1.8" />
+      <module name="cloud-hystrix" target="1.8" />
+      <module name="merchantcloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

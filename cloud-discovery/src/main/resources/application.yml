@@ -1,0 +1,23 @@
+server:
+  port: 8082
+eureka:
+  instance:
+    hostname: localhost
+    status-page-url: http://localhost:${server.port}/swagger-ui.html
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://localhost:8082/eureka/
+
+
+
+
+spring:
+  security:
+    basic:
+      enabled: true
+    user:
+      password: admin123
+      name: admin
+

@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: app-store
+server:
+  port: 8084
+  session-timeout: 60
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admin123@localhost:8082/eureka/
+spring:
+  datasource:
+    url: jdbc:postgresql://10.0.0.254:5432/hyt
+    username: hyt
+    password: hyt2015gentoo
+    driver-class-name: org.postgresql.Driver
+    tomcat:
+      max-wait: 10000
+      max-active: 300
+      initial-size: 20
+  redis:
+    database: 5
+    host: 47.106.111.54
+    password:
+    port: 6379
+    timeout: 3000
+    pool:
+      max-idle: 500
+      min-idle: 50
+      max-active: 1024
+      max-wait: 1000
+  jpa:
+      hibernate:
+        ddl-auto: update
+        show-sql: true
+    jackson:
+      serialization:
+        indent_output: true
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MySQL5Dialect
+logging:
+  config: classpath:log4j2.xml
+
+database:
+  pagefix: offer
+
+sysconfig:
+  smsend: "验证码：%s【运的易】"
+  swagger:
+    show: false
+  domain: https//www.yundeyi.com/
