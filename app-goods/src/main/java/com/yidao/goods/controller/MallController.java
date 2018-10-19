@@ -43,7 +43,6 @@ public class MallController extends BaseController {
     private IMallService mallServiceImpl;
 
 
-
     @ApiOperation(value="商店基本资料提交")
     @ResponseBody
     @RequestMapping(value = "/saveMallBaseInfo",method = RequestMethod.POST)

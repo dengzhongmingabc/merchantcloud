@@ -21,12 +21,12 @@ public class RedisCacheConfig {
     }
 
     /**
+     * @return 返回类型
      * @Description: 防止redis入库序列化乱码的问题
-     * @return     返回类型
      * @date 2018/4/12 10:54
      */
     @Bean
-    public RedisTemplate<Object, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory){
+    public RedisTemplate<Object, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
         RedisTemplate<Object, Object> redisTemplate = new RedisTemplate<Object, Object>();
         redisTemplate.setConnectionFactory(redisConnectionFactory);
         redisTemplate.setKeySerializer(new StringRedisSerializer());//key序列化

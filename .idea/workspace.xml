@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d10f38cf-ec10-4757-bfec-29f448ed83ba" name="Default" comment="" />
+    <list default="true" id="d10f38cf-ec10-4757-bfec-29f448ed83ba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/MallController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/MallController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/redis/RedisCacheConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/redis/RedisCacheConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/redis/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/redis/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../pearchamy/target/" />
     <ignored path="$PROJECT_DIR$/cloud-discovery/target/" />
@@ -25,32 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-store/src/main/java/com/yidao/appstore/controller/GoodsController.java">
+      <file leaf-file-name="GoodsCategoryController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/GoodsCategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-core/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommomDO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/entry/CommomDO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="1330">
+              <caret line="90" column="34" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -58,64 +43,95 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app-goods/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="190" column="18" selection-start-line="192" selection-start-column="8" selection-end-line="196" selection-end-column="21" />
+            <state relative-caret-position="4161">
+              <caret line="219" selection-start-line="219" selection-end-line="219" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeignController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/FeignController.java">
+      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/FileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="47" />
+            <state relative-caret-position="228">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#609#638#0" />
+                <element signature="e#945#972#0" />
+                <element signature="method#uploadFile#0;class#FileController#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeignController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-store/src/main/java/com/yidao/appstore/controller/FeignController.java">
+      <file leaf-file-name="MallController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/MallController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            <state relative-caret-position="423">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#saveMallBaseInfo#0;class#MallController#0" />
+                <element signature="method#saveMallAuthInfo#0;class#MallController#0" />
+                <element signature="method#queryMallListByMallUserId#0;class#MallController#0" />
+                <element signature="method#queryMallDetailByMallId#0;class#MallController#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-hystrix/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-hystrix/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="123">
+              <caret line="69" column="65" lean-forward="true" selection-start-line="69" selection-start-column="65" selection-end-line="69" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-getway/src/main/resources/application.yml">
+      <file leaf-file-name="settings.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../apache-maven-3.5.2/conf/settings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-252">
-              <caret selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="508">
+              <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FastDFSFileClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/utils/FastDFSFileClient.java">
+      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/GoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="3116">
+              <caret line="193" column="27" selection-start-line="193" selection-start-column="27" selection-end-line="193" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/web/BaseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2945">
+              <caret line="176" selection-start-line="176" selection-end-line="176" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IBaseService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/service/IBaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/service/BaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1406">
+              <caret line="84" column="26" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="26" />
+              <folding>
+                <element signature="e#2011#2012#0" expanded="true" />
+                <element signature="e#2057#2058#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,20 +175,15 @@
       <dir>F:\workspace\merchantcloud\app-store\src\main\java\com\yidao\appstore\utils</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/service/PageFactory.java" />
-        <option value="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/dao/BaseDaoImpl.java" />
-        <option value="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/dao/DaoTemplate.java" />
-        <option value="$PROJECT_DIR$/app-store/src/main/java/com/yidao/appstore/service/impl/RedisServiceImpl.java" />
-        <option value="$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/dao/EntityObj.java" />
         <option value="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/MallController.java" />
         <option value="$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/dao/DaoTemplate.java" />
         <option value="$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/service/PageFactory.java" />
-        <option value="$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/service/BaseService.java" />
         <option value="$PROJECT_DIR$/app-core/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/service/impl/CommonServiceImpl.java" />
         <option value="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/service/impl/MallGoodsCategoryServiceImpl.java" />
@@ -213,6 +224,14 @@
         <option value="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/FeignController.java" />
         <option value="$PROJECT_DIR$/app-store/src/main/java/com/yidao/appstore/controller/FeignController.java" />
         <option value="$PROJECT_DIR$/cloud-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/redis/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/redis/RedisCacheConfig.java" />
+        <option value="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/MallController.java" />
+        <option value="$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/web/BaseController.java" />
+        <option value="$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/GoodsCategoryController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../apache-maven-3.5.2/conf/settings.xml" />
       </list>
     </option>
   </component>
@@ -245,12 +264,33 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="app-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="app-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="docker" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="app-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="app-goods" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="app-goods" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="app-goods" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -285,32 +325,6 @@
           <item name="cloud-discovery" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="merchantcloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="merchantcloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="merchantcloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="merchantcloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-web:2.0.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="merchantcloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-test:2.0.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -321,12 +335,12 @@
     <option name="width" value="1399" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,95 +356,74 @@
             <path>
               <item name="merchantcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="merchantcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="app-core" type="462c0819:PsiDirectoryNode" />
+              <item name="app-goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merchantcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merchantcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="app-goods" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="merchantcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="merchantcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="app-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merchantcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merchantcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="app-core" type="462c0819:PsiDirectoryNode" />
+              <item name="app-goods" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="merchantcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="merchantcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="app-core" type="462c0819:PsiDirectoryNode" />
+              <item name="app-goods" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="merchantcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="merchantcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="app-core" type="462c0819:PsiDirectoryNode" />
+              <item name="app-goods" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="merchantcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="merchantcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="app-core" type="462c0819:PsiDirectoryNode" />
+              <item name="app-goods" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="entry" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="merchantcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="merchantcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="app-core" type="462c0819:PsiDirectoryNode" />
+              <item name="app-goods" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merchantcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merchantcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="app-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="merchantcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="merchantcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="app-core" type="462c0819:PsiDirectoryNode" />
+              <item name="app-goods" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merchantcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merchantcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="app-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
@@ -449,7 +442,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.16141996" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -483,7 +476,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.24911284" />
+    <option name="contentProportion" value="0.20603015" />
   </component>
   <component name="RunManager" selected="Spring Boot.CloudHystrixApplication">
     <configuration default="true" type="Application" factoryName="Application">
@@ -630,12 +623,17 @@
       <workItem from="1539046955214" duration="25125000" />
       <workItem from="1539133625562" duration="25665000" />
       <workItem from="1539219883553" duration="18008000" />
-      <workItem from="1539306295486" duration="17779000" />
+      <workItem from="1539306295486" duration="20610000" />
+      <workItem from="1539566305473" duration="2458000" />
+      <workItem from="1539670659695" duration="7519000" />
+      <workItem from="1539738349180" duration="8875000" />
+      <workItem from="1539824971993" duration="2644000" />
+      <workItem from="1539933615120" duration="438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135711000" />
+    <option name="totallyTimeSpent" value="160476000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,38 +651,38 @@
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="10" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5007163" side_tool="true" weight="0.3736142" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.24946696" />
+      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.17803837" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.50270855" side_tool="true" weight="0.2468017" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49857754" weight="0.47006652" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3292683" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3292683" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49928367" visible="true" weight="0.37694013" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30709535" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49928367" weight="0.35405105" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3063263" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3292683" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23454158" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49729145" visible="true" weight="0.17803837" />
       <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,34 +717,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/GoodsCategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-store/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/dao/DaoTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/dao/IElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/dao/EntityObj.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1">
@@ -754,26 +724,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/web/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/web/SessionCheckFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/web/SessionCheckFilter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/web/SessionConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/web/SessionCheckFilter.java" />
     <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/web/SessionInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -799,9 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,9 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,9 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,9 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,9 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,9 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,9 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,9 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -893,9 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -903,9 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,9 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,9 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -933,9 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -943,9 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,9 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -970,9 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,9 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -990,9 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="95" column="43" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1007,55 +904,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app-store/src/main/java/com/yidao/appstore/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        <state relative-caret-position="269">
+          <caret line="106" column="19" lean-forward="true" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app-core/pom.xml">
+    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/Student.java" />
+    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/utils/FastDFSFileClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="494">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/Student.java">
+    <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/FeignController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="399">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/entry/MallPicturesDO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/entry/GoodsDO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/entry/MallDO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/entry/GoodsCategoryDO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/entry/MallUserDO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-goods/pom.xml">
+    <entry file="file://$PROJECT_DIR$/app-store/src/main/java/com/yidao/appstore/controller/FeignController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="190" column="18" selection-start-line="192" selection-start-column="8" selection-end-line="196" selection-end-column="21" />
+        <state relative-caret-position="95">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-getway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/org/springframework/data/spring-data-redis/2.0.10.RELEASE/spring-data-redis-2.0.10.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1066,47 +963,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/utils/FastDFSFileClient.java">
+    <entry file="file://$PROJECT_DIR$/app-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="472">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/FeignController.java">
+    <entry file="file://$PROJECT_DIR$/app-store/src/main/java/com/yidao/appstore/AppStoreApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="47" />
+        <state relative-caret-position="228">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/redis/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app-store/src/main/java/com/yidao/appstore/controller/FeignController.java">
+    <entry file="jar://$PROJECT_DIR$/../jar/org/springframework/data/spring-data-redis/2.0.10.RELEASE/spring-data-redis-2.0.10.RELEASE.jar!/org/springframework/data/redis/core/RedisAccessor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        <state relative-caret-position="342">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/utils/redis/RedisCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="84" column="26" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2011#2012#0" expanded="true" />
+            <element signature="e#2057#2058#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-hystrix/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-getway/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/service/IBaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="665">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-hystrix/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/app-core/src/main/java/com/yidao/core/web/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="2945">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/GoodsCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="90" column="34" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#609#638#0" />
+            <element signature="e#945#972#0" />
+            <element signature="method#uploadFile#0;class#FileController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3116">
+          <caret line="193" column="27" selection-start-line="193" selection-start-column="27" selection-end-line="193" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-goods/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4161">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-goods/src/main/java/com/yidao/goods/controller/MallController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="method#saveMallBaseInfo#0;class#MallController#0" />
+            <element signature="method#saveMallAuthInfo#0;class#MallController#0" />
+            <element signature="method#queryMallListByMallUserId#0;class#MallController#0" />
+            <element signature="method#queryMallDetailByMallId#0;class#MallController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="69" column="65" lean-forward="true" selection-start-line="69" selection-start-column="65" selection-end-line="69" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../apache-maven-3.5.2/conf/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
         </state>
       </provider>
     </entry>
