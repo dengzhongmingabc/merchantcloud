@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d10f38cf-ec10-4757-bfec-29f448ed83ba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-config/src/main/resources/config/app-datacenter-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config/src/main/resources/config/app-datacenter-prd.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-goods/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-goods/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-goods/src/test/java/com/yidao/appuser/AppUserApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-store/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-store/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-store/src/main/java/com/yidao/appstore/AppStoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-store/src/main/java/com/yidao/appstore/AppStoreApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-store/src/test/java/com/yidao/appuser/AppUserApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config/src/test/java/com/yidao/discovery/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-discovery/src/test/java/com/yidao/discovery/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-getway/src/test/java/com/yidao/discovery/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-hystrix/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-hystrix/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-hystrix/src/test/java/com/yidao/discovery/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d10f38cf-ec10-4757-bfec-29f448ed83ba" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../pearchamy/target/" />
     <ignored path="$PROJECT_DIR$/cloud-discovery/target/" />
@@ -46,11 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MallDO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-datacenter/src/main/java/com/yidao/datacenter/entry/MallDO.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app-datacenter/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,11 +94,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppStoreApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppStoreApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app-store/src/main/java/com/yidao/appstore/AppStoreApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app-datacenter/src/main/java/com/yidao/datacenter/controller/FileController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -254,30 +238,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="app-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="app-datacenter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="app-datacenter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="app-datacenter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="app-datacenter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="docker" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="app-goods" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -796,12 +756,12 @@
       <workItem from="1539670659695" duration="7519000" />
       <workItem from="1539738349180" duration="8875000" />
       <workItem from="1539824971993" duration="2644000" />
-      <workItem from="1539933615120" duration="8325000" />
+      <workItem from="1539933615120" duration="9063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168363000" />
+    <option name="totallyTimeSpent" value="169101000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -814,6 +774,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="10" />
@@ -835,10 +796,10 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49928367" weight="0.37957823" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43951166" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43951166" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3292683" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49729145" visible="true" weight="0.18017058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49729145" visible="true" weight="0.18017058" />
       <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -884,13 +845,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app-store/src/main/java/com/yidao/appstore/entry/MallDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app-store/src/main/java/com/yidao/appstore/entry/MallUserDO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1224,7 +1178,14 @@
     <entry file="file://$PROJECT_DIR$/app-store/src/main/java/com/yidao/appstore/AppStoreApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-datacenter/src/main/java/com/yidao/datacenter/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
