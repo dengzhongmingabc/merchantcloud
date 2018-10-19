@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="app-core" />
+        <module name="app-datacenter" />
         <module name="app-goods" />
         <module name="app-store" />
         <module name="cloud-config" />
@@ -18,6 +19,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="app-core" target="1.8" />
+      <module name="app-datacenter" target="1.8" />
       <module name="app-goods" target="1.8" />
       <module name="app-store" target="1.8" />
       <module name="cloud-config" target="1.8" />

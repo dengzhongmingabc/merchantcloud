@@ -1,0 +1,75 @@
+server:
+  port: 8089
+  session-timeout: 60
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admin123@localhost:8082/eureka/
+
+feign:
+  hystrix:
+    enabled: true
+
+
+spring:
+  swagger:
+    enable: true
+    security:
+      filter-plugin: true
+      username: test
+      password: test
+  datasource:
+    url: jdbc:postgresql://10.0.0.254:5432/hyt
+    username: hyt
+    password: hyt2015gentoo
+    driver-class-name: org.postgresql.Driver
+    tomcat:
+      max-wait: 10000
+      max-active: 300
+      initial-size: 20
+  redis:
+    database: 5
+    host: 10.0.0.57
+    timeout: 1000
+    pool:
+      max-idle: 500
+      min-idle: 50
+      max-active: 1024
+      max-wait: 1000
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.spatial.dialect.postgis.PostgisDialect
+        temp:
+          use_jdbc_metadata_defaults: false
+
+  jackson:
+    serialization:
+      indent_output: true
+  boot:
+      admin:
+        client:
+          url: http://localhost:6667
+  application:
+    name: app-datacenter
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+logging:
+  config: classpath:log4j2.xml
+
+database:
+  pagefix: offset
+
+sysconfig:
+  smsend: "验证码123：%s【运的易】"
+  swagger:
+    show: true
+  domain: http://10.0.0.85/

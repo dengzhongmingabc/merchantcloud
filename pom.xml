@@ -17,7 +17,7 @@
         <module>cloud-config</module>
         <module>cloud-hystrix</module>
         <module>app-core</module>
-        <module>app-basecore</module>
+        <module>app-datacenter</module>
     </modules>
 
     <parent>

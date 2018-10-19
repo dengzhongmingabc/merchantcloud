@@ -6,7 +6,7 @@ eureka:
     serviceUrl:
       defaultZone: http://admin:admin123@localhost:8082/eureka/
 turbine:
-  app-config: app-store,app-goods
+  app-config: app-store,app-goods,app-datacenter
   combine-host-port: true
   cluster-name-expression: new String("default")
 
