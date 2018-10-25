@@ -1,8 +1,11 @@
+myconfig:
+  server:
+    ip: localhost
 spring:
   cloud:
     config:
       label: master
-      uri: http://localhost:8888/
+      uri: http://${myconfig.server.ip}:8888/
       profile: dev
   application:
     name: app-store

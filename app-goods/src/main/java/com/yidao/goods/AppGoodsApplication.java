@@ -11,9 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableEurekaClient
 @EnableFeignClients
 @EnableCircuitBreaker
-@ComponentScan(basePackages = {"com.yidao.core","com.yidao.goods"})
 public class AppGoodsApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(AppGoodsApplication.class, args);
     }

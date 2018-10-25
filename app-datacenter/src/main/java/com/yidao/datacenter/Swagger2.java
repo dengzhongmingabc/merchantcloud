@@ -28,7 +28,7 @@ public class Swagger2 {
                 .enable(swaggerShow)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.yidao.goods.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.yidao.datacenter.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

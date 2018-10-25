@@ -1,10 +1,12 @@
 server:
   port: 8888
-
+myconfig:
+  server:
+    ip: localhost
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://admin:admin123@localhost:8082/eureka/
+      defaultZone: http://admin:admin123@${myconfig.server.ip}:8082/eureka/
 spring:
   profiles:
     # native：启动从本地读取配置文件，必须指定active的值，才可以使用本地文件配置模式
@@ -17,8 +19,3 @@ spring:
           searchLocations: classpath:/config
   application:
     name: cloud-config
-
-
-
-
-
