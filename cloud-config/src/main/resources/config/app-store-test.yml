@@ -5,7 +5,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://admin:admin123@10.0.0.57:8082/eureka/
+      defaultZone: http://admin:admin123@10.0.0.62:8082/eureka/
 
 feign:
   hystrix:
@@ -30,7 +30,7 @@ spring:
       initial-size: 20
   redis:
     database: 5
-    host: 10.0.0.57
+    host: 10.0.0.62
     timeout: 1000
     pool:
       max-idle: 500

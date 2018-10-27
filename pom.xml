@@ -90,7 +90,7 @@
                     <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
 
                     <!--docker 服务器 ip port-->
-                    <dockerHost>http://10.0.0.57:2375</dockerHost>
+                    <dockerHost>http://10.0.0.62:2375</dockerHost>
                     <!--构建镜像的配置信息-->
                     <registryUrl>${docker.repostory}</registryUrl>
                     <pushImage>true</pushImage>

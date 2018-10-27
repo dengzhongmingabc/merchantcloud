@@ -22,7 +22,7 @@ spring:
       initial-size: 20
   redis:
     database: 5
-    host: 10.0.0.57
+    host: 10.0.0.62
     timeout: 1000
     pool:
       max-idle: 500
