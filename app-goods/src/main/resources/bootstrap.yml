@@ -5,7 +5,7 @@ spring:
   cloud:
     config:
       label: master
-      uri: http://${myconfig.server.ip}:8888/
+      uri: http://${myconfig.server.ip}:8888/cloud-config
       profile: dev
   application:
     name: app-goods

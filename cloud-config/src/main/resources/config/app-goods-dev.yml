@@ -5,7 +5,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://admin:admin123@localhost:8082/eureka/
+      defaultZone: http://admin:admin123@localhost:8082/cloud-discovery/eureka/
 feign:
   hystrix:
     enabled: true
